@@ -1,0 +1,67 @@
+.gray-gradient {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5f6f6+0,dbdce2+21,b8bac6+49,dddfe3+80,f5f6f6+100&1+0,0.5+100;Grey+Pipe */
+    background: -moz-linear-gradient(top,  rgba(245,246,246,1) 0%, rgba(219,220,226,0.9) 21%, rgba(184,186,198,0.76) 49%, rgba(221,223,227,0.6) 80%, rgba(245,246,246,0.5) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(245,246,246,1) 0%,rgba(219,220,226,0.9) 21%,rgba(184,186,198,0.76) 49%,rgba(221,223,227,0.6) 80%,rgba(245,246,246,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(245,246,246,1) 0%,rgba(219,220,226,0.9) 21%,rgba(184,186,198,0.76) 49%,rgba(221,223,227,0.6) 80%,rgba(245,246,246,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#80f5f6f6',GradientType=0 ); /* IE6-9 */
+}
+
+.page-section {
+    height: 900px;
+}
+
+#navbar {
+    font-family: 'Quantico', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    height: 45px;
+}
+
+.jumbotron {
+    font-family: 'Cinzel', serif;
+    background: rgba(0,0,0,0.2);
+    margin: 145px 100px;
+    color: antiquewhite;
+    text-shadow: 5px 4px #000;
+}
+
+.jumbotron h3 {
+    text-shadow: 3px 2px #000;
+    position: relative;
+    left: 70px;
+}
+
+.panel {
+    font-family: 'Molengo', sans-serif;
+    color: antiquewhite;
+    background: rgba(0,0,0,0.6);
+    margin: 100px;
+}
+
+.panel h3 {
+    line-height: 34px;
+}
+
+#section1 {
+    background: #000 url("https://dl.dropboxusercontent.com/u/49722688/images/night_fishing.webp") no-repeat fixed right;
+}
+
+#section3 {
+    background: #000 url("https://dl.dropboxusercontent.com/u/49722688/images/stone_aisle.webp") fixed center;
+}
+
+#section2 {
+    background: #000 url("https://dl.dropboxusercontent.com/u/49722688/images/japan_maple.webp") no-repeat fixed center;
+}
+
+#section4 {
+    background: #000 url("https://dl.dropboxusercontent.com/u/49722688/images/girl_sunset.webp") no-repeat fixed right;
+}
+
+#footer {
+    background: #aaa;
+    height: 200px;
+}
