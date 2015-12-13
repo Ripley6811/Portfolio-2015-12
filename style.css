@@ -91,19 +91,19 @@ hr {
 }
 
 #section1 {
-    background: #000 url("https://dl.dropboxusercontent.com/u/49722688/images/night_fishing.webp") no-repeat fixed right;
+    background: #7612A8 url("https://dl.dropboxusercontent.com/u/49722688/images/night_fishing.webp") no-repeat fixed right;
+}
+
+#section2 {
+    background: #6B510B url("https://dl.dropboxusercontent.com/u/49722688/images/japan_maple.webp") no-repeat fixed center;
 }
 
 #section3 {
     background: #000 url("https://dl.dropboxusercontent.com/u/49722688/images/stone_aisle_red.webp") fixed center;
 }
 
-#section2 {
-    background: #000 url("https://dl.dropboxusercontent.com/u/49722688/images/japan_maple.webp") no-repeat fixed center;
-}
-
 #section4 {
-    background: #000 url("https://dl.dropboxusercontent.com/u/49722688/images/girl_sunset.webp") no-repeat fixed right;
+    background: #008 url("https://dl.dropboxusercontent.com/u/49722688/images/girl_sunset.webp") no-repeat fixed right;
 }
 
 #footer {
