@@ -37,11 +37,14 @@
 .panel {
     font-family: 'Molengo', sans-serif;
     color: antiquewhite;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.7);
+}
+
+.margin-100 {
     margin: 100px;
 }
 
-.panel h3 {
+.panel h3,h4 {
     line-height: 34px;
 }
 
