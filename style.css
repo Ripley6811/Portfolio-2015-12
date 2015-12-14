@@ -29,6 +29,10 @@ h1 {
     height: 45px;
 }
 
+.navbar-nav>li>a {
+    color: #444 !important;
+}
+
 hr {
     border: 0px;
     height: 5px;
@@ -62,6 +66,7 @@ hr {
     color: antiquewhite;
     background: rgba(0,0,0,0.6);
     border-radius: 20px;
+    position: relative;
 }
 
 .margin-100 {
@@ -103,10 +108,52 @@ hr {
 }
 
 #section4 {
+    padding: 100px;
     background: #008 url("https://dl.dropboxusercontent.com/u/49722688/images/girl_sunset.webp") no-repeat fixed right;
 }
 
 #footer {
-    background: #aaa;
-    height: 200px;
+/*    background: #aaa;*/
+    height: 50px;
+}
+
+#link-list {
+    font-family: 'Quantico', sans-serif;
+/*    font-family: 'Molengo', sans-serif;*/
+    color: antiquewhite;
+    list-style-type: none;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+a {
+    color: antiquewhite;
+}
+
+a:hover {
+    color: coral;
+}
+
+.hidden-info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    opacity: 0;
+    -webkit-transition: opacity 0.3s; /* Safari */
+    transition: opacity 0.3s;
+}
+
+.panel:hover > .hidden-info {
+    opacity: 1;
+    background: rgba(0,0,0,0.8);
+}
+
+.btn-custom-brown {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d88847+0,c16c17+24,8e4c01+68,bf6e4e+100 */
+    background: rgb(216,136,71); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(216,136,71,1) 0%, rgba(193,108,23,1) 24%, rgba(142,76,1,1) 68%, rgba(191,110,78,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(216,136,71,1) 0%,rgba(193,108,23,1) 24%,rgba(142,76,1,1) 68%,rgba(191,110,78,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(216,136,71,1) 0%,rgba(193,108,23,1) 24%,rgba(142,76,1,1) 68%,rgba(191,110,78,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d88847', endColorstr='#bf6e4e',GradientType=1 ); /* IE6-9 */
 }
